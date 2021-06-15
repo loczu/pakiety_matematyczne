@@ -1,0 +1,9 @@
+Wzory opisujące ruch obiketu w rzucie ukosnym z uwzględnieniem oporów powietrza:
+
+$$ v_x(t_{j+1})=v_x(t_j)-\frac{k}{m}v_x(t_j)\Delta{t} $$
+
+$$ v_y(t_{j+1})=v_y(t_j)-g\Delta{t}-\frac{k}{m}v_y(t_j)\Delta{t} $$
+
+$$x(t_{j+1})=x(t_j)+v_x(t_j)\Delta{t}-\frac{1}{2}\frac{k}{m}v_x(t_j)\Delta{t^2}  $$
+
+$$y(t_{j+1})=y(t_j)+v_y(t_j)\Delta{t}-\frac{1}{2}g\Delta{t^2}-\frac{1}{2}\frac{k}{m}v_y(t_j)\Delta{t^2}$$
